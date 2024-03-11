@@ -103,6 +103,7 @@ export const updateNotes = async (request, response) => {
                 status: 'success',
                 Notes: updateNotes
             })
+
         }
         else {
             return response.status(200).json({
