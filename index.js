@@ -10,8 +10,7 @@ dotenv.config();
 
 
 const app = express();
-const PORT = process.env.PORT;
-const port = `0.0.0.0:${PORT}` || 8092;
+const port = process.env.PORT || 8092;
 
 app.use(cors());
 app.use(bodyParser.json({extended:true}));
