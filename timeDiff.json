@@ -1,0 +1,19 @@
+[
+    {
+        "username":"dhruv18",
+        "age":"20",
+        "email":"dhruvseth090704@gmail.com",
+        "password":"behappy12",
+        "Notes":[
+            {
+                "title":"A Good Laptop",
+                "description":"Laptop is very good, and working on it",
+                "validTill":"10",
+                "color":"green",
+                "date":"new Date()->Date Created"
+            }
+        ]
+    },{
+
+    }
+]
