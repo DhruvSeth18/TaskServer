@@ -5,7 +5,7 @@ const NotesRouter = express.Router();
 
 
 NotesRouter.route('/:username/:id')
-.post(MiddleWareAuth,updateNotes)
+.put(MiddleWareAuth,updateNotes)
 .delete(MiddleWareAuth,deleteNotes);
 
 NotesRouter.route('/:username')
